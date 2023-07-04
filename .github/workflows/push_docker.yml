@@ -85,10 +85,10 @@ jobs:
           platforms: linux/amd64
           push: ${{ github.event_name != 'pull_request' }}
           tags: |
-            martabal/archlinux:latest
-            martabal/archlinux:${{ steps.releasetag.outputs.release_tag }}
-            ghcr.io/${{ github.repository_owner }}/archlinux:latest
-            ghcr.io/${{ github.repository_owner }}/archlinux:${{ steps.releasetag.outputs.release_tag }}
+            martabal/arch:latest
+            martabal/arch:${{ steps.releasetag.outputs.release_tag }}
+            ghcr.io/${{ github.repository_owner }}/arch:latest
+            ghcr.io/${{ github.repository_owner }}/arch:${{ steps.releasetag.outputs.release_tag }}
       
       - name: Set Git tag
         if: ${{ ( github.event.inputs.create_release == 'true' || github.event_name == 'schedule')  && success() }}
@@ -108,4 +108,4 @@ jobs:
             "generate_release_notes": true,
             "draft": false,
             "prerelease": false}' \
-          https://api.github.com/repos/martabal/docker-baseimage-archlinux/releases
+          https://api.github.com/repos/martabal/docker-baseimage-arch/releases

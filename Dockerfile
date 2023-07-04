@@ -18,5 +18,4 @@ RUN \
         rust \
         python3 \
         python-pip \
-        sqlite && \
-    echo "hello"
+        sqlite

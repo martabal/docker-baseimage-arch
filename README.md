@@ -1,7 +1,7 @@
-# docker-baseimage-archlinux
+# docker-baseimage-arch
 
-[![Release](https://github.com/martabal/docker-baseimage-archlinux/actions/workflows/push_docker.yml/badge.svg)](https://github.com/martabal/docker-baseimage-archlinux/actions/workflows/push_docker.yml)
-[![Build](https://github.com/martabal/docker-baseimage-archlinux/actions/workflows/build.yml/badge.svg)](https://github.com/martabal/docker-baseimage-archlinux/actions/workflows/build.yml)
+[![Release](https://github.com/martabal/docker-baseimage-arch/actions/workflows/push_docker.yml/badge.svg)](https://github.com/martabal/docker-baseimage-arch/actions/workflows/push_docker.yml)
+[![Build](https://github.com/martabal/docker-baseimage-arch/actions/workflows/build.yml/badge.svg)](https://github.com/martabal/docker-baseimage-arch/actions/workflows/build.yml)
 
 ## Supported Architectures
 

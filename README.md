@@ -5,7 +5,7 @@
 
 ## Supported Architectures
 
-To obtain the appropriate image for your architecture, simply pull `ghcr.io/martabal/archlinux:latest`. Alternatively, you can also obtain specific architecture images by using tags.
+To obtain the appropriate image for your architecture, simply pull `ghcr.io/martabal/arch:latest`. Alternatively, you can also obtain specific architecture images by using tags.
 
 This image supports the following architectures:
 

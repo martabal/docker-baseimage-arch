@@ -8,10 +8,13 @@ RUN \
         composer \
         coreutils \
         curl \
+        docker \
+        docker-buildx \
         git \
         jq \
         mariadb-libs \
         nodejs \
+        qemu-base \
         npm \
         php \
         postgresql-libs \

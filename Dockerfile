@@ -14,6 +14,7 @@ RUN \
         jq \
         mariadb-libs \
         nodejs \
+        python-pillow \
         qemu-base \
         npm \
         php \

@@ -16,6 +16,7 @@ RUN \
         mariadb-libs \
         nodejs \
         python-pillow \
+        python-poetry \
         qemu-base \
         npm \
         php \

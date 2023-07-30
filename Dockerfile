@@ -5,6 +5,7 @@ LABEL maintainer="martabal"
 RUN \
     pacman -Syu --noconfirm \
         bash \
+        chromium \
         composer \
         coreutils \
         curl \

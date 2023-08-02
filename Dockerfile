@@ -13,15 +13,15 @@ RUN \
         docker-buildx \
         git \
         jq \
+        libvips \
         mariadb-libs \
         nodejs \
-        python-pillow \
-        python-poetry \
-        qemu-base \
         npm \
         php \
         postgresql-libs \
-        rust \
         python3 \
         python-pip \
+        python-poetry \
+        qemu-base \
+        rust \
         sqlite

@@ -17,6 +17,7 @@ RUN \
         mariadb-libs \
         nodejs \
         npm \
+        perl-image-exiftool \
         php \
         postgresql-libs \
         python3 \

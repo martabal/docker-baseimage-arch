@@ -25,4 +25,5 @@ RUN \
         python-poetry \
         qemu-base \
         rust \
-        sqlite
+        sqlite && \
+    ln -s /usr/bin/vendor_perl/exiftool /usr/bin

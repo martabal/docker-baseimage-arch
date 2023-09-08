@@ -26,4 +26,9 @@ RUN \
         qemu-base \
         rust \
         sqlite && \
-    ln -s /usr/bin/vendor_perl/exiftool /usr/bin
+    ln -s /usr/bin/vendor_perl/exiftool /usr/bin && \
+    echo "**** cleanup ****" && \
+    rm -rf \
+        /tmp/* \
+        /var/cache/pacman/pkg/* \
+        /var/lib/pacman/sync/*

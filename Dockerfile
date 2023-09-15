@@ -14,6 +14,7 @@ RUN \
         git \
         jq \
         libvips \
+        make \
         mariadb-libs \
         nodejs \
         npm \

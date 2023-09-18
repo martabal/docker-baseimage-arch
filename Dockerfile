@@ -27,7 +27,8 @@ RUN \
         qemu-base \
         rust \
         shellcheck \
-        sqlite && \
+        sqlite \
+        yamllint && \
     ln -s /usr/bin/vendor_perl/exiftool /usr/bin && \
     echo "**** cleanup ****" && \
     rm -rf \

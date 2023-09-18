@@ -116,11 +116,13 @@ jobs:
             "generate_release_notes": true,
             "draft": false,
             "prerelease": false}' \
-          https://api.github.com/repos/martabal/docker-baseimage-arch/releases
+          https://api.github.com/repos/${{ github.repository_owner }}/${{ github.repository }}/releases
 
   update_package:
     runs-on: ubuntu-latest
     needs: build
+    if: ${{ github.event_name != 'pull_request' }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -139,9 +141,9 @@ jobs:
             ghcr.io/martabal/arch:latest -o table=/tmp/package_versions.txt
           if ! diff ${TEMPDIR}/package_versions.txt package_versions.txt >/dev/null ; then
             cp ${TEMPDIR}/package_versions.txt ./package_versions.txt
-            git config user.name 'github-actions[bot]'
-            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git config user.name 'martabal the bot !'
+            git config user.email '74269598+martabal@users.noreply.github.com'
             git add .
-            git commit -m 'Bot Updating Package Versions'
+            git commit -m 'Updating Package Versions'
             git push
           fi

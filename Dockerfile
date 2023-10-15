@@ -30,6 +30,8 @@ RUN \
         sqlite \
         yamllint && \
     ln -s /usr/bin/vendor_perl/exiftool /usr/bin && \
+    echo "**** install bun ****" && \
+    curl -fsSL https://bun.sh/install | bash && \
     echo "**** cleanup ****" && \
     rm -rf \
         /tmp/* \

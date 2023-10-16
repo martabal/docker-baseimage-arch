@@ -32,6 +32,7 @@ RUN \
     ln -s /usr/bin/vendor_perl/exiftool /usr/bin && \
     echo "**** install bun ****" && \
     curl -fsSL https://bun.sh/install | bash && \
+    ln -s /root/.bun/bin/bun /usr/bin && \
     echo "**** cleanup ****" && \
     rm -rf \
         /tmp/* \

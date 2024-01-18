@@ -12,6 +12,7 @@ RUN \
         docker \
         docker-buildx \
         git \
+        jdk-openjdk \
         jq \
         libvips \
         make \

@@ -31,6 +31,7 @@ RUN \
         shellcheck \
         sqlite \
         texlive \
+        texlive-lang \
         yamllint && \
     ln -s /usr/bin/vendor_perl/exiftool /usr/bin && \
     echo "**** install bun ****" && \

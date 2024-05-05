@@ -5,6 +5,7 @@ LABEL maintainer="martabal"
 RUN \
     pacman -Syu --noconfirm \
         bash \
+        biber \
         chromium \
         composer \
         coreutils \
@@ -29,6 +30,7 @@ RUN \
         rust \
         shellcheck \
         sqlite \
+        texlive \
         yamllint && \
     ln -s /usr/bin/vendor_perl/exiftool /usr/bin && \
     echo "**** install bun ****" && \

@@ -22,6 +22,7 @@ RUN \
         npm \
         perl-image-exiftool \
         php \
+        pnpm \
         postgresql-libs \
         python3 \
         python-pip \

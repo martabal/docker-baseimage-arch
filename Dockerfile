@@ -24,15 +24,19 @@ RUN \
         php \
         pnpm \
         postgresql-libs \
+        prettier \
         python3 \
         python-pip \
         python-poetry \
         qemu-base \
         rust \
+        ruff \
+        rye \
         shellcheck \
         sqlite \
         texlive \
         texlive-lang \
+        uv \
         yamllint && \
     ln -s /usr/bin/vendor_perl/exiftool /usr/bin && \
     echo "**** install bun ****" && \

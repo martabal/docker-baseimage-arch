@@ -12,6 +12,7 @@ RUN \
         curl \
         docker \
         docker-buildx \
+        ghostscript \
         git \
         jdk-openjdk \
         jq \

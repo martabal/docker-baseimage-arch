@@ -21,6 +21,7 @@ RUN \
         mariadb-libs \
         nodejs \
         npm \
+        openssl \
         perl-image-exiftool \
         php \
         pnpm \

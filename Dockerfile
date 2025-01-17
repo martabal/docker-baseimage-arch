@@ -22,6 +22,7 @@ RUN \
         nodejs \
         npm \
         openssl \
+        pacman-contrib \
         perl-image-exiftool \
         php \
         pnpm \

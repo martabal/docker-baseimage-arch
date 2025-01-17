@@ -4,6 +4,7 @@ LABEL maintainer="martabal"
 
 RUN \
     pacman -Syu --noconfirm \
+        ansible \
         bash \
         biber \
         chromium \

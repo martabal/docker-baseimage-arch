@@ -43,6 +43,7 @@ RUN \
     texlive \
     texlive-lang \
     uv \
+    yamlfmt \
     yamllint && \
   ln -s /usr/bin/vendor_perl/exiftool /usr/bin && \
   echo "**** install bun ****" && \

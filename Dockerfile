@@ -12,6 +12,7 @@ RUN \
     composer \
     coreutils \
     curl \
+    diesel-cli \
     docker \
     docker-buildx \
     dpkg \

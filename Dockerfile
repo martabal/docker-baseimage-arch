@@ -25,6 +25,7 @@ RUN \
     mariadb-libs \
     nodejs \
     npm \
+    openssh \
     openssl \
     pacman-contrib \
     perl-image-exiftool \

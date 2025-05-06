@@ -23,7 +23,7 @@ RUN \
     libvips \
     make \
     mariadb-libs \
-    nodejs \
+    nodejs-lts \
     npm \
     openssh \
     openssl \

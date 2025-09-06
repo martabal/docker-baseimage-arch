@@ -27,6 +27,7 @@ RUN \
     npm \
     openssh \
     openssl \
+    oxlint \
     pacman-contrib \
     perl-image-exiftool \
     php \
@@ -41,16 +42,15 @@ RUN \
     ruff \
     rye \
     shellcheck \
+    shfmt \
     sqlite \
     texlive \
     texlive-lang \
+    typst \
     uv \
     yamlfmt \
     yamllint && \
   ln -s /usr/bin/vendor_perl/exiftool /usr/bin && \
-  echo "**** install bun ****" && \
-  curl -fsSL https://bun.sh/install | bash && \
-  ln -s /root/.bun/bin/bun /usr/bin && \
   echo "**** create user abc ****" && \
   useradd -d /home/abc -m abc && \
   echo "abc ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers && \

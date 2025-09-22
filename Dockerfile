@@ -44,6 +44,7 @@ RUN \
     shellcheck \
     shfmt \
     sqlite \
+    taplo-cli \
     texlive \
     texlive-lang \
     typst \

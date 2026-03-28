@@ -27,7 +27,6 @@ RUN \
     npm \
     openssh \
     openssl \
-    oxlint \
     pacman-contrib \
     perl-image-exiftool \
     php \

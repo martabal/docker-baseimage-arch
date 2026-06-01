@@ -39,7 +39,6 @@ RUN \
     qemu-base \
     rust \
     ruff \
-    rye \
     shellcheck \
     shfmt \
     sqlite \
